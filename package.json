@@ -1,0 +1,39 @@
+{
+  "name": "typescript-webpack-setup",
+  "version": "1.0.0",
+  "description": "webpack setup for node.js project written in typescript",
+  "main": "lib/index.js",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "del": "^2.2.2",
+    "express": "^4.15.3",
+    "gulp": "^3.9.1",
+    "pm2": "^2.4.6",
+    "run-sequence": "^1.2.2",
+    "ts-loader": "^2.1.0",
+    "typings": "^2.1.1",
+    "webpack": "^2.5.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-env": "^1.5.1",
+    "webpack": "^2.6.1"
+  },
+  "scripts": {
+    "start": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/B-Pratik/node-webpack.git"
+  },
+  "bugs": {
+    "url": "https://github.com/B-Pratik/node-webpack/issues"
+  },
+  "keywords": [
+    "webpack",
+    "typescript"
+  ],
+  "author": "Pratik Bhurewar",
+  "license": "ISC"
+}

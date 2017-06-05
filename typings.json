@@ -1,0 +1,10 @@
+{
+  "name": "typescript-webpack-setup",
+  "dependencies": {
+    "bluebird": "registry:npm/bluebird#3.5.0+20170314181206",
+    "express": "registry:npm/express#4.14.0+20170217205433"
+  },
+  "globalDependencies": {
+    "node": "registry:env/node#6.0.0+20170213133316"
+  }
+}
