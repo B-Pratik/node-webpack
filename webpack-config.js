@@ -20,6 +20,7 @@ module.exports = {
             acc[mod] = "commonjs " + mod
             return acc
         }, {}),
+    devtool: 'source-map',
     module: {
         loaders: [
             {
